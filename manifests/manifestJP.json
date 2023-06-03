@@ -1,0 +1,266 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://juliapaa.github.io/Manifest/manifests/manifestJP.json",
+  "@type" : "sc:Manifest",
+  "label" : "Finnish design ",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Design pieces created by Finnish Designers of 20th the century. Works of Alvar Aalto, Aino Aalto, Olof Bäckström and Timo Sarpaneva.",
+    "@language" : "en"
+  } ],
+  "license" : "https://scalarchives.com/",
+  "attribution" : "The Museum of Modern Art Archives",
+  "sequences" : [ {
+    "@id" : "http://b14e089b-2156-4b65-bfa4-88298d2c4950",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://6c7cb16e-3ae8-4dbc-af0a-64d967f20970",
+      "@type" : "sc:Canvas",
+      "label" : "Stacking Stool (model 60)",
+      "height" : 221,
+      "width" : 176,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://40a6377e-f80b-4f07-b95e-e9a0b769d94a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/3/Artek.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://localhost:8182/iiif/3/Artek.jpg",
+            "profile" : "level2"
+          },
+          "height" : 221,
+          "width" : 176
+        },
+        "on" : "http://6c7cb16e-3ae8-4dbc-af0a-64d967f20970"
+      } ],
+      "related" : "https://www.moma.org/collection/works/2553",
+      "metadata" : [ {
+        "label" : "Designer",
+        "value" : "Alvar Aalto"
+      }, {
+        "label" : "Title",
+        "value" : "Stacking Stool (Model 60)"
+      }, {
+        "label" : "Year",
+        "value" : "1932-33"
+      }, {
+        "label" : "Medium",
+        "value" : "Birch"
+      }, {
+        "label" : "Dimensions",
+        "value" : "h. 17 1/4” (43.8cm), diam. 13 3/4” (35cm) "
+      }, {
+        "label" : "Manufacturer",
+        "value" : "Oy Huonekalu- ja Rakennustyötehdas Ab, Turku, Finland"
+      }, {
+        "label" : "Movement",
+        "value" : "Modernism, Finnish Modernism, Scandinavian Modern, Organic Modernism, Midcentury modernism, Functionalism"
+      } ]
+    }, {
+      "@id" : "http://438cd363-80c6-42d7-928a-63239789e301",
+      "@type" : "sc:Canvas",
+      "label" : "Tumbler",
+      "height" : 235,
+      "width" : 193,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6575ed8e-f23e-44ec-b16f-fe18ea427293",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/3/Aalto.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://localhost:8182/iiif/3/Aalto.jpg",
+            "profile" : "level2"
+          },
+          "height" : 235,
+          "width" : 193
+        },
+        "on" : "http://438cd363-80c6-42d7-928a-63239789e301"
+      } ],
+      "related" : "https://www.moma.org/collection/works/3573",
+      "metadata" : [ {
+        "label" : "Designer",
+        "value" : "Aino Aalto"
+      }, {
+        "label" : "Title",
+        "value" : "Tumbler"
+      }, {
+        "label" : "Year",
+        "value" : "1932"
+      }, {
+        "label" : "Medium",
+        "value" : "Pressed Glass"
+      }, {
+        "label" : "Dimensions",
+        "value" : " 3 3/8 x 3” (8.6 x 7. cm)"
+      }, {
+        "label" : "Manufacturer",
+        "value" : "Iittala Glassworks, Iittala, Finland"
+      }, {
+        "label" : "Movement",
+        "value" : "Modernism, Finnish Modernism, Scandinavian Modern, Functionalism"
+      } ]
+    }, {
+      "@id" : "http://3b6f19de-009a-4b40-afbd-66208a477fa5",
+      "@type" : "sc:Canvas",
+      "label" : "Scissors",
+      "height" : 210,
+      "width" : 203,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://025d36df-750d-4b98-9618-ba2e5773f77c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/3/Fiskars.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://localhost:8182/iiif/3/Fiskars.jpg",
+            "profile" : "level2"
+          },
+          "height" : 210,
+          "width" : 203
+        },
+        "on" : "http://3b6f19de-009a-4b40-afbd-66208a477fa5"
+      } ],
+      "related" : "https://www.moma.org/collection/works/3250",
+      "metadata" : [ {
+        "label" : "Designer",
+        "value" : "Olof Bäckström"
+      }, {
+        "label" : "Title",
+        "value" : "Scissors"
+      }, {
+        "label" : "Year",
+        "value" : "Created 1960-67, This Example 1976"
+      }, {
+        "label" : "Medium",
+        "value" : "Plastic and Stainless Steel"
+      }, {
+        "label" : "Dimensions",
+        "value" : "8 1/2 x 2 3/4” (21.6 x 7 cm)"
+      }, {
+        "label" : "Manufacturer",
+        "value" : "Oy Fiskars Ab, Helsinki"
+      }, {
+        "label" : "Movement",
+        "value" : "Modernism, Finnish Modernism, Scandinavian Modern, Functionalism"
+      }, {
+        "label" : "Credit",
+        "value" : "Value"
+      } ]
+    }, {
+      "@id" : "http://ebb426b8-41b4-4248-b6dd-da0b91dc189f",
+      "@type" : "sc:Canvas",
+      "label" : "Casserole",
+      "height" : 161,
+      "width" : "",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8d0276da-de0e-472d-bed9-1b8a1ffa0463",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/3/Sarpaneva.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://localhost:8182/iiif/3/Sarpaneva.jpg",
+            "profile" : "level2"
+          },
+          "height" : 161,
+          "width" : 206
+        },
+        "on" : "http://ebb426b8-41b4-4248-b6dd-da0b91dc189f"
+      } ],
+      "related" : "https://www.moma.org/collection/works/1980",
+      "metadata" : [ {
+        "label" : "Designer",
+        "value" : "Timo Sarpaneva"
+      }, {
+        "label" : "Title",
+        "value" : "Casserole"
+      }, {
+        "label" : "Year",
+        "value" : "1959"
+      }, {
+        "label" : "Medium",
+        "value" : "Cast Iron and Teak"
+      }, {
+        "label" : "Dimensions",
+        "value" : "Overall; 7 x 8 x 7 3/4” (17.8 x 20.3 x 19.7 cm) .a (pot): 6 1/2 x 8” (16.5 x 20.3 cm) .b (lid): 1 x 7 1/4” (2.5 x 18.4 cm) .c (handle): 1 x 9 1/2 x 1 1/4” (2.5 x 24.1 x 3.2 cm)"
+      }, {
+        "label" : "Manufacturer",
+        "value" : "W. Rosenlew and Co., Finland"
+      }, {
+        "label" : "Movement",
+        "value" : "Modernism, Finnish Modernism, Scandinavian Modernism, Functionalism"
+      } ]
+    }, {
+      "@id" : "http://a71f113f-f3f0-4655-b2d5-3d393c0421d6",
+      "@type" : "sc:Canvas",
+      "label" : "Casserole",
+      "height" : 161,
+      "width" : 259,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://371988c7-db9f-417c-85a0-9dbe623d1ace",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/3/Casserole.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "http://localhost:8182/iiif/3/Casserole.jpg",
+            "profile" : "level2"
+          },
+          "height" : 161,
+          "width" : 259
+        },
+        "on" : "http://a71f113f-f3f0-4655-b2d5-3d393c0421d6"
+      } ],
+      "related" : "https://www.moma.org/collection/works/1980",
+      "metadata" : [ {
+        "label" : "Designer",
+        "value" : "Timo Sarpaneva"
+      }, {
+        "label" : "Title",
+        "value" : "Casserole"
+      }, {
+        "label" : "Year",
+        "value" : "1959"
+      }, {
+        "label" : "Medium",
+        "value" : "Cast Iron and Teak"
+      }, {
+        "label" : "Dimensions",
+        "value" : "Overall; 7 x 8 x 7 3/4” (17.8 x 20.3 x 19.7 cm) .a (pot): 6 1/2 x 8” (16.5 x 20.3 cm) .b (lid): 1 x 7 1/4” (2.5 x 18.4 cm) .c (handle): 1 x 9 1/2 x 1 1/4” (2.5 x 24.1 x 3.2 cm)"
+      }, {
+        "label" : "Manufacturer",
+        "value" : "W. Rosenlew and Co., Finland"
+      }, {
+        "label" : "Movement",
+        "value" : "Modernism, Finnish Modernism, Scandinavian Modernism, Functionalism"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
