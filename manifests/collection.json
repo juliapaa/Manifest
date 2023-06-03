@@ -1,0 +1,13 @@
+{
+  "id" : "https://juliapaa.github.io/Manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in juliapaa/Manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://juliapaa.github.io/Manifest/manifests/manifest23.json",
+    "label" : "Finnish design "
+  } ]
+}
