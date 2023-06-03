@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://juliapaa.github.io/Manifest/manifests/manifest23.json",
     "label" : "Finnish design "
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://juliapaa.github.io/Manifest/manifests/JPmanifest.json",
+    "label" : "Finnish design "
   } ]
 }
